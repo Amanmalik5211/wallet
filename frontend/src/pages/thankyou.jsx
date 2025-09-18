@@ -45,10 +45,9 @@ const ThankYouPage = () => {
     Shop More
   </button>
 </div>
-
-        </div>
-      </div>
-    </div>
+  </div>
+ </div>
+</div>
   );
 };
 
