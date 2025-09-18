@@ -68,7 +68,7 @@ export default function BookFarmVisit() {
         </p>
 
         <form
-          className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4 relative z-10"
+          className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4 relative z-10 "
           onSubmit={handleSubmit}
         >
           <input
@@ -77,7 +77,7 @@ export default function BookFarmVisit() {
             placeholder="First Name *"
             value={formData.firstName}
             onChange={handleChange}
-            className="w-full rounded-full bg-[#C7CF7A] placeholder-black px-4 py-3 focus:outline-none"
+            className="w-[90%] md:w-[80%] lg:w-[70%] rounded-full bg-[#C7CF7A] placeholder-black px-4 py-3 focus:outline-none"
           />
           <input
             type="text"
@@ -85,7 +85,7 @@ export default function BookFarmVisit() {
             placeholder="Last Name *"
             value={formData.lastName}
             onChange={handleChange}
-            className="w-full rounded-full bg-[#C7CF7A] placeholder-black px-4 py-3 focus:outline-none"
+   className="w-[90%] md:w-[80%] lg:w-[70%] rounded-full bg-[#C7CF7A] placeholder-black px-4 py-3 focus:outline-none"
           />
           <input
             type="email"
@@ -93,7 +93,7 @@ export default function BookFarmVisit() {
             placeholder="Email *"
             value={formData.email}
             onChange={handleChange}
-            className="w-full rounded-full bg-[#C7CF7A] placeholder-black px-4 py-3 focus:outline-none"
+             className="w-[90%] md:w-[80%] lg:w-[70%] rounded-full bg-[#C7CF7A] placeholder-black px-4 py-3 focus:outline-none"
           />
           <input
             type="text"
@@ -101,14 +101,14 @@ export default function BookFarmVisit() {
             placeholder="Phone *"
             value={formData.phone}
             onChange={handleChange}
-            className="w-full rounded-full bg-[#C7CF7A] placeholder-black px-4 py-3 focus:outline-none"
+ className="w-[90%] md:w-[80%] lg:w-[70%] rounded-full bg-[#C7CF7A] placeholder-black px-4 py-3 focus:outline-none"
           />
 
           <select
             name="selectedFarm"
             value={formData.selectedFarm}
             onChange={handleChange}
-            className="w-full rounded-full bg-[#C7CF7A] px-4 py-2.5 focus:outline-none md:col-span-2"
+    className="w-[90%] md:w-[80%] lg:w-[70%] rounded-full bg-[#C7CF7A] placeholder-black px-4 py-3 focus:outline-none"
           >
             <option value="">Select Farm *</option>
             {farms.length > 0 ? (
